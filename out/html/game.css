@@ -519,37 +519,39 @@ table {
 }
 
 /* Styles for parties */
-.seat.kpd {
-    fill: #8B0000;
+/* Spanish Second Republic Political Parties */
+.seat.monarchist {
+  fill: #800080; /* Royal purple for monarchists */
 }
-.seat.spd {
-    fill: #E3000F;
-    stroke: #000;
-    stroke-width: 1.5px;
+.seat.ceda {
+  fill: #003366; /* Dark blue for CEDA conservatives */
 }
-.seat.ddp {
-    fill: #DCCA4A;
+.seat.falange {
+  fill: #954B00; /* Dark brown for Falange (Spanish fascists) */
 }
-.seat.z {
-    fill: #000;
+.seat.radical {
+  fill: #D5AC27; /* Gold/yellow for the Radical Party */
 }
-.seat.bvp {
-    fill: #69A2BE;
+.seat.progressives {
+  fill: #69A2BE; /* Light blue for Progressive Republicans */
 }
-.seat.dvp {
-    fill: #D5AC27;
+.seat.republican-left {
+  fill: #E3000F; /* Bright red for Republican Left */
 }
-.seat.other {
-    fill: #909090;
+.seat.psoe {
+  fill: #C40000; /* Darker red for Socialists */
 }
-.seat.dnvp {
-    fill: #3F7BC1;
+.seat.pce {
+  fill: #8B0000; /* Deep red for Communists */
 }
-.seat.nsdap {
-    fill: #954B00;
+.seat.cnt-fai {
+  fill: #000000; /* Black for Anarchists */
 }
-.seat.sapd {
-    fill: #C40000;
+.seat.erc {
+  fill: #FFBF00; /* Amber for Catalan nationalists */
+}
+.seat.pnv {
+  fill: #006400; /* Green for Basque nationalists */
 }
 
 .tooltip-text {
